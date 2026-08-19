@@ -1,0 +1,37 @@
+/* ��ɫģʽ����ȫ͸������������Բ�ǡ���Ӱ��ϸ�߿� */
+[data-theme="dark"] #post .post-copyright {
+    background: transparent;
+    text-shadow: #bfbeb8 1px 0 4px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+    border-radius: 8px;
+    padding-left: 20px; /* ������������ƫ�ƣ�������ߣ���������� */
+    padding-right: 16px;
+}
+/* ��ɫģʽ����Ȩ�ڲ�������ɫǳ�Ұ�ɫ */
+[data-theme="dark"] .post-copyright-info {
+    color: #e0e0e4;
+}
+
+/* ǳɫģʽ��͸��������Բ�ǡ���Ӱ��ϸ�߿� */
+[data-theme="light"] #post .post-copyright {
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding-left: 20px; /* ����ɫ����һ�£��������� */
+    padding-right: 16px;
+}
+
+/* ��һ�б��⣺�ֺŵ�С */
+#post .post-copyright__title {
+    font-size: 18px;
+}
+/* ������������������Ϣ���ֺŵ��� */
+#post .post-copyright-info {
+    font-size: 17px;
+}
+
+#post .post-copyright__notice {
+    font-size: 17px;
+}
