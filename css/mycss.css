@@ -1,0 +1,54 @@
+/ /* ����ҳ��ʵ��ë������Ч ͸����0.8 */
+#aside-content {
+    background: rgba(255, 255, 255, 0);
+}
+
+#aside-content > .card-widget:first-child {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+#aside-content .card-widget {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+/* ��������ҳ�Ͷ���ҳ���ë���� */
+.layout > div:first-child:not(.recent-posts) {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+/* �����޸�����ҳ���¿�Ƭë���� */
+#recent-posts .recent-post-item {
+    background: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important; /* ��ǿ����� */
+    border-radius: 16px !important;
+}
+
+    /*�ؼ�������������¿�Ƭ�ڲ��Դ��Ĵ��׵�ɫ�� */
+    #recent-posts .recent-post-item .post-info,
+    #recent-posts .recent-post-item .post-meta,
+    #recent-posts .recent-post-item .post-title,
+    #recent-posts .recent-post-item .post-content {
+        background: transparent !important;
+    }
+
+
+/*������*/
+#page-header.nav-visible #nav {
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(50px);
+}
+
+/*�ֻ���ë�����Ż�*/
+#sidebar #sidebar-menus.open {
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+}
+
+#sidebar #menu-mask {
+    background: rgba(255,255,255,0);
+}
